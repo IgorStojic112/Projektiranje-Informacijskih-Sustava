@@ -1,0 +1,381 @@
+<mxfile host="app.diagrams.net" modified="2025-06-16T10:00:00.000Z" agent="Claude" version="24.4.13" type="device">
+  <diagram name="Page-1" id="PlinaInfo-FDD">
+    <mxGraphModel dx="800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ═══════════════════════════════════
+             SUSTAV – gornji naslovni box
+             ═══════════════════════════════════ -->
+        <mxCell id="sys" value="PlinaInfo sustav" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="350" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+
+        <!-- Spojnica: system box → horizontalna linija -->
+        <mxCell id="sys-dn" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="100" as="sourcePoint" />
+            <mxPoint x="410" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Horizontalna linija vrha (spaja sve aktore) -->
+        <mxCell id="hline" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="120" as="sourcePoint" />
+            <mxPoint x="680" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ═══════════════════════════════════
+             AKTOR 1 – Potrošač
+             aktor_x=80  func_x=120  centar_x=140
+             ═══════════════════════════════════ -->
+        <mxCell id="a1" value="Potrošač" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a1-up" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="160" as="sourcePoint" />
+            <mxPoint x="140" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1-dn" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="220" as="sourcePoint" />
+            <mxPoint x="80" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Potrošač F1: Prijava i odjava -->
+        <mxCell id="p1f1" value="Prijava i odjava" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1f1h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="265" as="sourcePoint" />
+            <mxPoint x="120" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Potrošač F2: Prijava kvara -->
+        <mxCell id="p1f2" value="Prijava kvara" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1f2h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="335" as="sourcePoint" />
+            <mxPoint x="120" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Potrošač F3: Pregled statusa kvara -->
+        <mxCell id="p1f3" value="Pregled statusa kvara" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1f3h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="405" as="sourcePoint" />
+            <mxPoint x="120" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Potrošač F4: Pregled potrošnje -->
+        <mxCell id="p1f4" value="Pregled potrošnje" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="450" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1f4h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="475" as="sourcePoint" />
+            <mxPoint x="120" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Potrošač F5: Preuzimanje računa -->
+        <mxCell id="p1f5" value="Preuzimanje računa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="520" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1f5h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="545" as="sourcePoint" />
+            <mxPoint x="120" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Potrošač F6: Prijava reklamacije -->
+        <mxCell id="p1f6" value="Prijava reklamacije" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="590" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p1f6h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="615" as="sourcePoint" />
+            <mxPoint x="120" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+
+        <!-- ═══════════════════════════════════
+             AKTOR 2 – Terenski tehničar
+             aktor_x=260  func_x=300  centar_x=320
+             ═══════════════════════════════════ -->
+        <mxCell id="a2" value="Terenski tehničar" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a2-up" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="160" as="sourcePoint" />
+            <mxPoint x="320" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2-dn" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="220" as="sourcePoint" />
+            <mxPoint x="260" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Terenski tehničar F1: Prijava i odjava -->
+        <mxCell id="p2f1" value="Prijava i odjava" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2f1h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="265" as="sourcePoint" />
+            <mxPoint x="300" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Terenski tehničar F2: Pregled radnih naloga -->
+        <mxCell id="p2f2" value="Pregled radnih naloga" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2f2h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="335" as="sourcePoint" />
+            <mxPoint x="300" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Terenski tehničar F3: Ažuriranje statusa intervencije -->
+        <mxCell id="p2f3" value="Ažuriranje statusa intervencije" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2f3h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="405" as="sourcePoint" />
+            <mxPoint x="300" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Terenski tehničar F4: Foto dokumentacija -->
+        <mxCell id="p2f4" value="Foto dokumentacija lokacije" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="450" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2f4h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="475" as="sourcePoint" />
+            <mxPoint x="300" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Terenski tehničar F5: Ažuriranje infrastrukture -->
+        <mxCell id="p2f5" value="Ažuriranje infrastrukturnih podataka" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="520" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2f5h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="545" as="sourcePoint" />
+            <mxPoint x="300" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Terenski tehničar F6: Pregled plana održavanja -->
+        <mxCell id="p2f6" value="Pregled plana održavanja" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="590" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p2f6h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="615" as="sourcePoint" />
+            <mxPoint x="300" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+
+        <!-- ═══════════════════════════════════
+             AKTOR 3 – Operater
+             aktor_x=440  func_x=480  centar_x=500
+             ═══════════════════════════════════ -->
+        <mxCell id="a3" value="Operater" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3-up" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="160" as="sourcePoint" />
+            <mxPoint x="500" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3-dn" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="220" as="sourcePoint" />
+            <mxPoint x="440" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Operater F1: Prijava i odjava -->
+        <mxCell id="p3f1" value="Prijava i odjava" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3f1h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="265" as="sourcePoint" />
+            <mxPoint x="480" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Operater F2: GIS pregled mreže -->
+        <mxCell id="p3f2" value="GIS pregled mreže" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3f2h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="335" as="sourcePoint" />
+            <mxPoint x="480" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Operater F3: Upravljanje infrastrukturom -->
+        <mxCell id="p3f3" value="Upravljanje infrastrukturom" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3f3h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="405" as="sourcePoint" />
+            <mxPoint x="480" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Operater F4: Upravljanje kvarovima -->
+        <mxCell id="p3f4" value="Upravljanje kvarovima" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="450" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3f4h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="475" as="sourcePoint" />
+            <mxPoint x="480" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Operater F5: Upravljanje ugovorima i fakturiranjem -->
+        <mxCell id="p3f5" value="Upravljanje ugovorima i fakturiranjem" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="520" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3f5h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="545" as="sourcePoint" />
+            <mxPoint x="480" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Operater F6: Planiranje preventivnog održavanja -->
+        <mxCell id="p3f6" value="Planiranje preventivnog održavanja" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="590" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3f6h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="615" as="sourcePoint" />
+            <mxPoint x="480" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Operater F7: Upravljanje korisnicima -->
+        <mxCell id="p3f7" value="Upravljanje korisnicima" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="660" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3f7h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="685" as="sourcePoint" />
+            <mxPoint x="480" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+
+        <!-- ═══════════════════════════════════
+             AKTOR 4 – Menadžment
+             aktor_x=620  func_x=660  centar_x=680
+             ═══════════════════════════════════ -->
+        <mxCell id="a4" value="Menadžment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a4-up" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="160" as="sourcePoint" />
+            <mxPoint x="680" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4-dn" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="220" as="sourcePoint" />
+            <mxPoint x="620" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Menadžment F1: Prijava i odjava -->
+        <mxCell id="p4f1" value="Prijava i odjava" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4f1h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="265" as="sourcePoint" />
+            <mxPoint x="660" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Menadžment F2: Pregled statist. izvještaja -->
+        <mxCell id="p4f2" value="Pregled statist. izvještaja" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="310" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4f2h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="335" as="sourcePoint" />
+            <mxPoint x="660" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Menadžment F3: KPI analitika -->
+        <mxCell id="p4f3" value="KPI analitika" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4f3h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="405" as="sourcePoint" />
+            <mxPoint x="660" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Menadžment F4: Pregled potrošnje po zonama -->
+        <mxCell id="p4f4" value="Pregled potrošnje po zonama" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="450" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4f4h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="475" as="sourcePoint" />
+            <mxPoint x="660" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+        <!-- Menadžment F5: Pregled evidencije kvarova -->
+        <mxCell id="p4f5" value="Pregled evidencije kvarova" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="520" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p4f5h" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="545" as="sourcePoint" />
+            <mxPoint x="660" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
